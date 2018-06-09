@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Hello World!",
+	"version": "1.0.0",
+	"author": "Wataru",
+	"permissions": [
+		"notifications"
+	],
+	"browser_action": {
+		"default_icon": "ginpei.png",
+		"default_popup": "popup.html",
+		"default_title": "HELLOOOOO WOOOR"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	}
+}

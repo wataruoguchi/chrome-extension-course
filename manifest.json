@@ -4,7 +4,6 @@
 	"version": "1.0.0",
 	"author": "Wataru",
 	"permissions": [
-		"notifications",
     "tts"
 	],
 	"browser_action": {

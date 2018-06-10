@@ -4,7 +4,8 @@
 	"version": "1.0.0",
 	"author": "Wataru",
 	"permissions": [
-		"notifications"
+		"notifications",
+    "tts"
 	],
 	"browser_action": {
 		"default_icon": "ginpei.png",

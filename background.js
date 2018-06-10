@@ -9,5 +9,6 @@ const ginpeiNotification = (msg) => {
 };
 
 const ginpeiTimeout = (msg) => setTimeout(() => ginpeiNotification(msg), delay)
-
-chrome.runtime.onMessage.addListener((message) => ginpeiTimeout(message))
+chrome.runtime.onMessage.addListener((message) => {
+  ginpeiTimeout(message)
+})

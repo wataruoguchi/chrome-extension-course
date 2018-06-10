@@ -1,6 +1,5 @@
 document.querySelector('.yo').onclick = (event) => {
-	const message = {
-		type: 'start'
-	}
-	chrome.runtime.sendMessage(message)
+  const msg = 'Did you need coffee? Alexa, make a cup of coffee for him. Alexa, Alexa, Alexaaa!!!!!'
+  chrome.tts.speak(msg);
 };
+
